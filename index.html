@@ -15,29 +15,29 @@
     <!-- Pole typu RADIO -->
 
     <p><h1>Co lubisz bardziej?</h1></p>
-    <input type="radio" id="Jedzenie_1" value="Wodę gazowaną">Wodę gazowaną<br>
-    <input type="radio" id="Jedzenie_2" value="Wodę niegazowaną">Wodę niegazowaną<br>
+    <input type="radio" id="Napoj_1" value="Wodę gazowaną">Wodę gazowaną<br>
+    <input type="radio" id="Napoj_2" value="Wodę niegazowaną">Wodę niegazowaną<br>
 
     <!-- Pole typu RADIO -->
 
     <p><h1>Jakiej płci jesteś?</h1></p>
-    <input type="radio" id="Jedzenie_3" value="Kobietą">Kobietą<br>
-    <input type="radio" id="Jedzenie_4" value="Mężczyzną">Mężczyzną<br>
+    <input type="radio" id="Napoj_3" value="Kobietą">Kobietą<br>
+    <input type="radio" id="Napoj_4" value="Mężczyzną">Mężczyzną<br>
 
     <!-- Pole typu CHECKBOX -->
     <p><h1>Jakie napoje lubisz pić ?</h1></p>
-    <input type="checkbox" id="Jedzenie_5" value="Pepsi">Pepsi<br>
-    <input type="checkbox" id="Jedzenie_6" value="Sprite">Sprite<br>
-    <input type="checkbox" id="Jedzenie_7" value="Fanta">Fanta<br>
-    <input type="checkbox" id="Jedzenie_8" value="Tymbark">Tymbark<br>
+    <input type="checkbox" id="Napoj_5" value="Pepsi">Pepsi<br>
+    <input type="checkbox" id="Napoj_6" value="Sprite">Sprite<br>
+    <input type="checkbox" id="Napoj_7" value="Fanta">Fanta<br>
+    <input type="checkbox" id="Napoj_8" value="Tymbark">Tymbark<br>
 
     <!-- Pole typu CHECKBOX -->
 
-    <p><h1>Jakiego rodzaju napój lubisz pić (Możesz zaznaczyć więcej niż jedna możliwość)  ?</h1></p>
-    <input type="checkbox" id="Jedzenie_9" value="Napój izotoniczny">Napój izotoniczny<br>
-    <input type="checkbox" id="Jedzenie_10" value="Napój gazowany">Napój gazowany<br>
-    <input type="checkbox" id="Jedzenie_11" value="Napój niegazowany">Napój niegazowany<br>
-    <input type="checkbox" id="Jedzenie_12" value="Napój herbaciany">Napój herbaciany<br>
+    <p><h1>Jakiego rodzaju napój lubisz pić ?</h1></p>
+    <input type="checkbox" id="Napoj_9" value="Napój izotoniczny">Napój izotoniczny<br>
+    <input type="checkbox" id="Napoj_10" value="Napój gazowany">Napój gazowany<br>
+    <input type="checkbox" id="Napoj_11" value="Napój niegazowany">Napój niegazowany<br>
+    <input type="checkbox" id="Napoj_12" value="Napój herbaciany">Napój herbaciany<br>
 
     <!-- Lista rozwijalna (typ podstawowy) z zaznaczoną opcją domyślną -->
 
@@ -65,61 +65,61 @@
 
     </center>
 </div></form>
-<p id="pizza"></p>
+<p id="napoj"></p>
 
 <script>
 function myFunction() {
-    var burger1 = document.getElementById("Imie").value;
-  console.log("Imie:   ", burger1);
-  var burger = document.getElementById("Nazwisko").value;
-  console.log("Nazwisko:   ",burger);
-    var aa = document.getElementById("Jedzenie_1").value; 
-   if(document.getElementById("Jedzenie_1").value){
+    var napoj1 = document.getElementById("Imie").value;
+  console.log("Imie:   ", napoj1);
+  var napoj = document.getElementById("Nazwisko").value;
+  console.log("Nazwisko:   ",napoj);
+    var aa = document.getElementById("Napoj_1").value; 
+   if(document.getElementById("Napoj_1").value){
     console.log("Co lubisz bardziej:   ",aa);
    };
-   var bb = document.getElementById("Jedzenie_2").value; 
-   if(document.getElementById("Jedzenie_2").value){
+   var bb = document.getElementById("Napoj_2").value; 
+   if(document.getElementById("Napoj_2").value){
     console.log("Co lubisz bardziej:   ",bb);
    };
-   var cc = document.getElementById("Jedzenie_3").value; 
-   if(document.getElementById("Jedzenie_3").value){
-    console.log("Czy jestes wege:   ",cc);
+   var cc = document.getElementById("Napoj_3").value; 
+   if(document.getElementById("Napoj_3").value){
+    console.log("Jakiej płci jesteś:   ",cc);
    };
-   var dd = document.getElementById("Jedzenie_4").value; 
-   if(document.getElementById("Jedzenie_4").value){
-    console.log("Czy jestes wege:   ",dd);
+   var dd = document.getElementById("Napoj_4").value; 
+   if(document.getElementById("Napoj_4").value){
+    console.log("Jakiej płci jesteś:   ",dd);
    };
-   var ee = document.getElementById("Jedzenie_5").value; 
-   if(document.getElementById("Jedzenie_5").checked){
-    console.log("Jaka lubisz pizze:     ", ee);
+   var ee = document.getElementById("Napoj_5").value; 
+   if(document.getElementById("Napoj_5").checked){
+    console.log("Jakie napoje lubisz pić:     ", ee);
    };
-   var ff = document.getElementById("Jedzenie_6").value; 
-   if(document.getElementById("Jedzenie_6").checked){
-    console.log("Jaka lubisz pizze:     ",ff);
+   var ff = document.getElementById("Napoj_6").value; 
+   if(document.getElementById("Napoj_6").checked){
+    console.log("Jakie napoje lubisz pić:     ",ff);
    };
-   var gg = document.getElementById("Jedzenie_7").value; 
-   if(document.getElementById("Jedzenie_7").checked){
-    console.log("Jaka lubisz pizze:     ",gg);
+   var gg = document.getElementById("Napoj_7").value; 
+   if(document.getElementById("Napoj_7").checked){
+    console.log("Jakie napoje lubisz pić:     ",gg);
    };
-   var hh = document.getElementById("Jedzenie_8").value; 
-   if(document.getElementById("Jedzenie_8").checked){
-    console.log("Jaka lubisz pizze:     ",hh);
+   var hh = document.getElementById("Napoj_8").value; 
+   if(document.getElementById("Napoj_8").checked){
+    console.log("Jakie napoje lubisz pić:     ",hh);
    };
-   var ii = document.getElementById("Jedzenie_9").value; 
-   if(document.getElementById("Jedzenie_9").checked){
-    console.log("Jakiego lubisz burgera:     ",ii);
+   var ii = document.getElementById("Napoj_9").value; 
+   if(document.getElementById("Napoj_9").checked){
+    console.log("Jakiego rodzaju napój lubisz pić:     ",ii);
    };
-   var jj = document.getElementById("Jedzenie_10").value; 
-   if(document.getElementById("Jedzenie_10").checked){
-    console.log("Jakiego lubisz burgera:     ",jj);
+   var jj = document.getElementById("Napoj_10").value; 
+   if(document.getElementById("Napoj_10").checked){
+    console.log("Jakiego rodzaju napój lubisz pić:     ",jj);
    };
-   var kk = document.getElementById("Jedzenie_11").value; 
-   if(document.getElementById("Jedzenie_11").checked){
-    console.log("Jakiego lubisz burgera:     ",kk);
+   var kk = document.getElementById("Napoj_11").value; 
+   if(document.getElementById("Napoj_11").checked){
+    console.log("Jakiego rodzaju napój lubisz pić:     ",kk);
    };
-   var ll = document.getElementById("Jedzenie_12").value; 
-   if(document.getElementById("Jedzenie_12").checked){
-    console.log("Jakiego lubisz burgera:     ",ll);
+   var ll = document.getElementById("Napoj_12").value; 
+   if(document.getElementById("Napoj_12").checked){
+    console.log("Jakiego rodzaju napój lubisz pić:     ",ll);
    };
 }
 </script>
